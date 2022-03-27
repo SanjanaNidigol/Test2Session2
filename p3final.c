@@ -1,10 +1,10 @@
 #include<stdio.h>
 int input_number()
 {
-  int x;
+  int k;
   printf("Enter any value\n");
-  scanf("%d",&x);
-  return x;
+  scanf("%d",&k);
+  return k;
 }
 int is_prime(int n)
 {
@@ -17,14 +17,11 @@ int is_prime(int n)
 }
 void output(int n, int is_prime)
 {
-  /*if(is_prime)
-    printf("%d is  prime number\n",n);
+  
+  if(is_prime==1)
+    printf("%d is not a prime number\n",n);
   else
-    printf("%d is not prime number\n",n);*/
-  if(is_prime==0)
-    printf("%d is prime number\n",n);
-  else
-    printf("%d is not prime number\n",n);
+    printf("%d is a prime number\n",n);
 }
 int main()
 {
