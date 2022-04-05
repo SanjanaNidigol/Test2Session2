@@ -1,23 +1,9 @@
-gcc -g p1final.c -lm 
- ./a.out
-Enter the first coordinate pionts
-1
-1
-Enter the second coordinate pionts
-2
-2
-the distance between points is 1.414214 
- gdb a.out
-GNU gdb (Ubuntu 8.1.1-0ubuntu1) 8.1.1
-Copyright (C) 2018 Free Software Foundation, Inc.
-License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
- 
  gcc -g p1final.c -lm 
  ./a.out
-Enter the first coordinate pionts
+Enter the first coordinate points
 1
 1
-Enter the second coordinate pionts
+Enter the second coordinate points
 2
 2
 the distance between points is 1.414214 
@@ -48,10 +34,10 @@ Breakpoint 1, main () at p1final.c:19
 (gdb) n
 21    input(&x1,&y1,&x2,&y2);
 (gdb) n
-Enter the first coordinate pionts
+Enter the first coordinate points
 3
 4
-Enter the second coordinate pionts
+Enter the second coordinate points
 5
 6
 22    find_distance(x1,y1,x2,y2,&distance);

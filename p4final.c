@@ -14,7 +14,7 @@ int find_fibo(int n)
     return 0;
   }
   else if(n==1)
-  {
+  { 
     return 1;
   }
   else 
@@ -30,7 +30,7 @@ int find_fibo(int n)
 }
 void output(int n, int fibo)
 {
-  printf("%d",fibo);
+  printf("the %dth number in fibonacci sequence is %d",n,fibo);
 }
 int main()
 {
